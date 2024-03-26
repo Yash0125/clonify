@@ -1,0 +1,10 @@
+.bodycontent-container {
+  width: 83vw;
+  height: 200vh;
+}
+
+@media screen and (max-width: 767px) {
+  .bodycontent-container {
+    width: 100vw;
+  }
+}
