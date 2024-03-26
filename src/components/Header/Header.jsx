@@ -47,6 +47,10 @@ const Header = () => {
             <div className="notification-profile-icon"></div>
           </div>
         </div>
+        <div className="input-mobile-container">
+          <CiSearch className="search-icon" />
+          <input className="search-input" type="text" placeholder="Search..." />
+        </div>
       </header>
     </>
   );
