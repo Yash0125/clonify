@@ -1,6 +1,5 @@
 .bodycontent-container {
   width: 80vw;
-  height: 300vh;
 }
 
 @media screen and (max-width: 767px) {

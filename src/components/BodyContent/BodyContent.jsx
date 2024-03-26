@@ -4,6 +4,7 @@ import Header from '../Header/Header';
 import HeroSection from '../HeroSection/HeroSection';
 import AnalyticsCard from '../AnalyticsCard/AnalyticsCard';
 import Performance from '../Performance/Performance';
+import InstalledApp from '../InstalledApp/InstalledApp';
 
 const BodyContent = () => {
   const data = [
@@ -56,6 +57,7 @@ const BodyContent = () => {
       <HeroSection/>
       <AnalyticsCard/>
       <Performance data={data}/>
+      <InstalledApp/>
     </div>
   )
 }
