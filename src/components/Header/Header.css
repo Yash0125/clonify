@@ -1,0 +1,116 @@
+.header-container {
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-container {
+  border: 1px solid #eaecf0;
+  height: 3rem;
+  margin-left: 20px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  width: 60vw;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  color: #282828;
+  padding: 10px;
+}
+
+.search-input {
+  width: 50vw;
+  border: none;
+  outline: none;
+}
+
+.header-right-container {
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+.header-right-icon {
+  color: #5f6980;
+  height: 24px;
+  width: 24px;
+  padding: 10px;
+}
+.header-right-icon-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+}
+.notification-icon {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background-color: #e25563;
+  border-radius: 4px;
+  top: 8px;
+  left: 27px;
+  display: flex;
+  flex-direction: row;
+}
+.notification-container {
+  display: flex;
+}
+.header-right-profile-container {
+  position: relative;
+}
+.profile-image {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+
+.notification-profile-icon {
+  position: absolute;
+  height: 8px;
+  width: 8px;
+  background-color: #20c997;
+  border-radius: 4px;
+  bottom: 5px;
+  left: 34px;
+}
+
+.header-mobile-container {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .search-input {
+    width: 30vw;
+  }
+  .input-container {
+    width: 45vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-container {
+    display: none;
+  }
+  .header-mobile-container {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-mobile-details-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+  }
+}
