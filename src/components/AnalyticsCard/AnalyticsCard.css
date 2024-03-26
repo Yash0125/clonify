@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+.analyticscard-container {
+  width: 70vw;
+  margin: 2rem auto 2rem auto;
+  height: 14rem;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  /* overflow: scroll; */
+}
+
+.revenue-card-container {
+  width: 262px;
+  height: 162px;
+  border-radius: 12px;
+  padding: 20px;
+  gap: 8px;
+  box-shadow: 0px 1px 10px 0px #0000000f;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-title {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5f6980;
+  margin: 0;
+  padding: 0;
+}
+
+.card-price {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 40px;
+  color: #282828;
+  margin: 0;
+  padding: 0;
+}
+
+.card-bottom-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.card-bottom-left {
+  width: 54px;
+  height: 24px;
+  border-radius: 100px;
+  padding: 2px 10px;
+  background-color: #dcfff5;
+  color: #20c997;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-bottom-right {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  color: #9d9fa1;
+  margin-left: 5px;
+}
+
+.card-top-container {
+  margin-top: 1rem;
+}
+
+.users-card-container {
+  width: 262px;
+  height: 162px;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 1px 10px 0px #0000000f;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.card-bottom-user-left {
+  color: #dc3545;
+  width: 52px;
+  height: 24px;
+  border-radius: 100px;
+  padding: 2px 10px;
+  background-color: #ffe0e3;
+}
+
+.card-bottom-signup-left {
+  width: 47px;
+  height: 24px;
+  border-radius: 100px;
+  padding: 2px 10px;
+  color: #5f6980;
+  background-color: #f2f4f7;
+}
+
+@media screen and (max-width: 1200px) {
+  .analyticscard-container {
+    width: 70vw;
+    margin: 2rem auto 2rem auto;
+    height: 28rem;
+    flex-wrap: wrap;
+  }
+  .users-card-container {
+    margin: auto;
+  }
+  .revenue-card-container {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .analyticscard-container {
+    width: 343px;
+    height: 576px;
+  }
+  .revenue-card-container {
+    width: 311px;
+    height: 108px;
+    margin-top: 0.3rem;
+  }
+  .users-card-container {
+    width: 311px;
+    height: 108px;
+    margin-top: 0.3rem;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .analyticscard-container {
+    width: 95vw;
+  }
+  /* .revenue-card-container {
+    width: 80vw;
+    height: 108px;
+    margin-top: 0.3rem;
+  }
+  .users-card-container {
+    width: 80vw;
+    height: 108px;
+    margin-top: 0.3rem;
+
+  } */
+}
